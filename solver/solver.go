@@ -5,7 +5,5 @@ import (
 )
 
 func main() {
-	board := solver.CreateBoard()
-	board.Solve()
-	board.PrintBoard()
+	solver.CreateBoard().Solve().PrintBoard()
 }
